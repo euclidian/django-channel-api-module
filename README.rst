@@ -13,16 +13,14 @@ Quick starti
 -----------
 
 1. Add 'channel_api' to your INSTALLED_APPS setting like this
-
-    ```
+    
     INSTALLED_APPS = [
         ...
 	'channel',
 	'asgi_redis',
         'channel_api',
-    ]
-   ```
+    ]   
 
 2. Include the django-channel-api URLconf in your project urls.py
-    `url(r'^channel/', include('channel_api.urls')),`
+    url(r'^channel/', include('channel_api.urls')),
 
