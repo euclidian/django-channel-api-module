@@ -14,7 +14,7 @@ Quick starti
 
 1. Add 'channel_api' to your INSTALLED_APPS setting like this
 
-    ````
+    ```
     INSTALLED_APPS = [
         ...
 	'channel',
